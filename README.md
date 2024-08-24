@@ -1,5 +1,5 @@
 
-```markdown
+
 # YouTube Downloader EXE
 
 This standalone executable allows you to download videos or audio from YouTube with optional subtitles. The simple command-line interface guides you through the process of selecting the format (audio or video), choosing from available resolutions, and downloading subtitles if needed.
