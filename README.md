@@ -74,8 +74,3 @@ This project utilizes the `pytubefix` library for handling YouTube downloads. Yo
 *Developed by [Ekushi](https://github.com/ExyXyz).*
 ```
 
-### Key Points:
-- **Dependency Section**: Added a section that mentions the `pytubefix` library and includes a link to the official GitHub repository.
-- **Download Link**: Replace the placeholder with the actual download link for the EXE file.
-- **Screenshot Preview**: Replace `link-to-your-screenshot.png` with the actual URL or path to your screenshot.
-- **Repository Links**: Update the repository URL placeholders (`your-username/your-repo-name`) with your actual GitHub username and repository name.
