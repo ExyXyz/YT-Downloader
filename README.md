@@ -72,5 +72,3 @@ This project utilizes the `pytubefix` library for handling YouTube downloads. Yo
 ---
 
 *Developed by [Ekushi](https://github.com/ExyXyz).*
-```
-
