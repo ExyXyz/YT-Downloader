@@ -1,6 +1,31 @@
+import os
+import subprocess
+import sys
 from pytubefix import YouTube
 from pytubefix.cli import on_progress
-import os
+
+def check_ffmpeg():
+    try:
+        subprocess.run(["ffmpeg", "-version"], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    except subprocess.CalledProcessError:
+        print("FFmpeg is not installed. Installing FFmpeg...")
+        install_ffmpeg()
+    except FileNotFoundError:
+        print("FFmpeg is not installed. Installing FFmpeg...")
+        install_ffmpeg()
+
+def install_ffmpeg():
+    if sys.platform.startswith("win"):
+        print("Windows detected. Installing FFmpeg using winget...")
+        try:
+            subprocess.run(["winget", "install", "ffmpeg"], check=True)
+            print("FFmpeg installed successfully.")
+        except subprocess.CalledProcessError as e:
+            print(f"Failed to install FFmpeg: {e}")
+            sys.exit(1)
+    else:
+        print("Unsupported operating system for automated FFmpeg installation.")
+        sys.exit(1)
 
 def get_resolution_choice(streams):
     print("Resolutions Available:")
@@ -30,10 +55,10 @@ def download_subtitle(yt, title):
 def download_audio(yt, title):
     print("=============================================")
     audio_stream = yt.streams.get_audio_only()
-    audio_file = f'{title}'
+    audio_file = f'{title}.mp3'
 
     try:
-        audio_stream.download(filename=audio_file, mp3=True)
+        audio_stream.download(filename=audio_file)
         print(f"Audio downloaded successfully as {audio_file}")
     except Exception as e:
         print(f"Failed to download audio: {e}")
@@ -84,6 +109,7 @@ def download_video(yt, title):
     print("=============================================")
 
 def main():
+    check_ffmpeg()
     while True:
         print("=============================================")
         url = input("Link: ")
