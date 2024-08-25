@@ -6,7 +6,8 @@ This standalone executable allows you to download videos or audio from YouTube w
 
 ## Features
 
-- **Standalone EXE**: No need to install Python or any libraries.
+- **Standalone EXE**: No need to install Python or any libraries. (Except ffmpeg)
+- **Ffmpeg Installer**: Automatically install ffmpeg if you haven't install it.
 - **Download Video or Audio**: Choose between video with the highest available resolution or audio in MP3 format.
 - **Subtitle Support**: Download subtitles in your preferred language.
 - **Resolution Selection**: Pick from the available video resolutions.
@@ -15,7 +16,7 @@ This standalone executable allows you to download videos or audio from YouTube w
 
 ## Usage
 
-1. **Download the EXE**: [Download YouTube Downloader EXE](https://github.com/ExyXyz/YT-Downloader/releases/tag/release).
+1. **Download the EXE**: [Download YouTube Downloader EXE](https://github.com/ExyXyz/YT-Downloader/releases).
 2. **Run the EXE**: Double-click the file to launch the command prompt interface.
 3. **Follow the Prompts**:
    - Enter the YouTube link.
