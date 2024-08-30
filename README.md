@@ -65,7 +65,7 @@ Do you want to download another video? (y/n):
 
 Click the link below to download the latest version of the YouTube Downloader EXE:
 
-[Download YouTube Downloader EXE]([https://github.com/ExyXyz/YT-Downloader/releases/tag/release](https://github.com/ExyXyz/YT-Downloader/releases/tag/1.1))
+[Download YouTube Downloader EXE](https://github.com/ExyXyz/YT-Downloader/releases/tag/release](https://github.com/ExyXyz/YT-Downloader/releases/tag/1.1)
 
 ## Dependency: pytubefix
 
