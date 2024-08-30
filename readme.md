@@ -54,10 +54,12 @@ Do you want to download another video? (y/n):
 
 ## Screenshot Preview
 
-![YouTube Downloader EXE Preview](![Screenshot 2024-08-24 170002](https://github.com/user-attachments/assets/819f1fdb-a662-4459-9b4c-ea4f6fbada9e)
-)
-![YouTube Downloader EXE Preview 2](![Screenshot 2024-08-24 170059](https://github.com/user-attachments/assets/6e288d3b-107f-4e39-b3ad-5e65e0358813)
-)
+
+![Screenshot 2024-08-24 170002](https://github.com/user-attachments/assets/d5097730-af47-488b-865d-e58de0b10ce7)
+
+![Screenshot 2024-08-24 170059](https://github.com/user-attachments/assets/07d7a80a-ea5c-4b4d-872e-af24d98814e8)
+
+
 
 ## Download
 
